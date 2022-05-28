@@ -149,9 +149,6 @@ export const Contact = (props) => {
       </div>
       <div id='footer'>
         <div className='container text-center'>
-          <p>
-            &copy;  Design by KRUSHNA53
-          </p>
         </div>
       </div>
     </div>
