@@ -613,3 +613,40 @@ label {
     margin: 50px 0;
   }
 }
+/* new code css */
+.intro-text h1{
+  animation: float 2s infinite ease-in-out alternate;
+}
+.intro-text h1{
+  animation-delay: .8s;
+}
+@keyframes float {
+  100% {
+    transform: translateY(20px);
+  }
+}
+.intro-text p{
+  animation: fadeInAnimation ease 3s infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.about-text h2,.section-title h2,.section-title h2{
+  animation: float 2s infinite ease-in-out alternate;
+}
+.about-text h2,.section-title h2,.section-title h2{
+  animation-delay: .8s;
+}
+@keyframes float {
+  100% {
+    transform: translateY(10px);
+  }
+}
+/* new code end */
