@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&family=Rubik:wght@300&display=swap');
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Rubik', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #FF6961 !important;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -165,6 +165,8 @@ hr {
 }
 .section-title p {
   font-size: 18px;
+  color: black;
+  font-weight: 600;
 }
 .btn-custom {
   font-family: "Raleway", sans-serif;
@@ -212,7 +214,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/banner2.jpg) center center no-repeat;
+  background: url(../images/banner2.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -275,11 +277,13 @@ header .intro-text {
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
+  color: #FF6961;
 }
 #about h2 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  color: #FF6961;
 }
 #about h2::after {
   position: absolute;
@@ -295,6 +299,8 @@ header .intro-text {
   margin-left: 6px;
   list-style: none;
   padding: 0;
+  color: black;
+  font-weight: 600;
 }
 #about .about-text li:before {
   content: "\f00c";
@@ -314,6 +320,8 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
+  color: black;
+  font-weight: 600;
 }
 /* Services Section */
 #services {
@@ -325,12 +333,12 @@ header .intro-text {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #FF6961;
 }
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: #d44;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -350,10 +358,11 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #FF6961;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
+  font-weight: 600;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -452,8 +461,12 @@ header .intro-text {
   padding: 100px 0;
   background-color: rgb(255, 255, 255);
 }
+#team h2{
+  color: #FF6961;
+}
 #team h4 {
   margin: 5px 0;
+  color: #FF6961;
 }
 #team .team-img {
   width: 240px;
@@ -464,7 +477,7 @@ header .intro-text {
 }
 #team .thumbnail .caption {
   padding: 10px 0 0;
-  color: white;
+  color: #FF6961;
 }
 /* Contact Section */
 #contact {
@@ -477,9 +490,11 @@ header .intro-text {
 }
 #contact .section-title p {
   font-size: 16px;
+  color: black;
+  font-weight: 600;
 }
 #contact h2 {
-  color: #fff;
+  color: #FF6961;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -487,18 +502,19 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: #d44;
   height: 4px;
   width: 60px;
   bottom: 0;
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: #FF6961;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
-  font-weight: 400;
+  font-weight: bold;
+  font-size: 26px;
 }
 #contact form {
   padding-top: 20px;
@@ -509,7 +525,7 @@ header .intro-text {
 }
 #contact .btn-custom {
   margin: 30px 0;
-  background: transparent;
+  background: rgb(24, 23, 23);
   border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
@@ -531,7 +547,7 @@ label {
   color: #444;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ddd;
+  border: 1px solid black;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -559,17 +575,20 @@ label {
 }
 #contact .contact-item {
   margin: 20px 0;
+  color: #FF6961;
+  font-weight: 800;
 }
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: #FF6961;
   margin-bottom: 10px;
   display: block;
 }
 #contact .contact-item i.fa {
   margin-right: 10px;
+  color: black;
 }
 #contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid rgb(0 0 0);
   padding-top: 50px;
   margin-top: 50px;
   text-align: center;
@@ -587,10 +606,11 @@ label {
   color: #fff;
   border-radius: 50%;
   transition: all 0.3s;
+  background-color: #FF6961;
 }
 #contact .social i.fa:hover {
   color: #608dfd;
-  background: #fff;
+  background: white;
 }
 /* Footer Section*/
 #footer {
