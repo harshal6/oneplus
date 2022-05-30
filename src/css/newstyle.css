@@ -172,7 +172,7 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #d44;
-  background-color: black;
+  background-color: #fffefe;
   background-image: black;
   padding: 14px 34px;
   letter-spacing: 1px;
@@ -525,12 +525,14 @@ header .intro-text {
 }
 #contact .btn-custom {
   margin: 30px 0;
-  background: rgb(24, 23, 23);
+  background: #d44;
   border: 2px solid #fff;
+  color: white;
 }
 #contact .btn-custom:hover {
-  color: #d44;
+  border: 1px solid black;
   background: #fff;
+  color: black;
 }
 label {
   font-size: 12px;
