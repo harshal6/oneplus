@@ -18,6 +18,24 @@
       "Lorem ipsum dolor"
     ]
   },
+  "Whowework":[
+    {
+      "title": "STARTUPS",
+      "info1": "We understand what it takes to skyrocket a company and the paths they need to follow.",
+      "info2": "If you’re one, we can share some insights into how we’ve supported extremely successful ones."
+    },
+    {
+      "title": "SME",
+      "info1": "We’re supporting the SME sector in creating solid platforms that help increase revenue, but more importantly, create added value.",
+      "info2": "We have packaged solutions for cost-effective and quick implementations and tailored approaches that deliver with pinpoint accuracy."
+    },
+    {
+      "title": "ENTERPRISE",
+      "info1": "Big companies require big ideas but also big actions.",
+      "info2": "The challenge is delivering at speed and scale.This has been part of our DNA for the past 15 years.",
+      "info": "If you’re one, we can show you the way."
+    }
+  ],
   "Gallery": [
     {
       "title": "Project Title",
