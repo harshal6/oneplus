@@ -33,8 +33,8 @@ const App = () => {
         <meta name="keywords" content="one-plus , service"></meta> 
       </Helmet>
       <About data={landingPageData.About} />
-      <Whowework data={landingPageData.Whowework}/>
       <Services data={landingPageData.Services} />
+      <Whowework data={landingPageData.Whowework}/>
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>
