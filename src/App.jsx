@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Helmet from "react-helmet";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { About } from "./components/about";
@@ -26,6 +27,11 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <Helmet> 
+        <title>One-Plus</title>
+        <meta name="info" content="this is one-plus website"></meta>
+        <meta name="keywords" content="one-plus , service"></meta> 
+      </Helmet>
       <About data={landingPageData.About} />
       <Whowework data={landingPageData.Whowework}/>
       <Services data={landingPageData.Services} />
