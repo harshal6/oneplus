@@ -53,7 +53,6 @@ export const Navigation = (props) => {
                 Contact
               </a>
             </li>
-            
           </ul>
         </div>
       </div>

@@ -576,6 +576,18 @@ header .intro-text {
     color: #FF6961;
 }
 
+#team .thumbnail .fa-linkedin {
+    padding: 6px 11px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: red;
+    color: #fffefe;
+    font-size: 25px;
+}
+
 
 /* Contact Section */
 
@@ -735,6 +747,7 @@ label {
 #contact .social i.fa:hover {
     color: #608dfd;
     background: white;
+    border: 1px solid;
 }
 
 
@@ -773,6 +786,9 @@ label {
         margin-bottom: 11px;
     }
     .navbar-header .navbar-toggle {
-        margin-right: 15px;
+        margin-right: 30px;
+    }
+    .intro h1 {
+        font-size: 74px;
     }
 }
