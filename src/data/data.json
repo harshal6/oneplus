@@ -1,10 +1,17 @@
 {
     "Header": {
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Leading the way in the industry",
+        "paragraph": "THEONEPLUS MARKETING AGENCY"
+    },
+    "Brand": {
+        "paragraph": "GETTING YOUR BRAND HEARD BY THE NEW WORLD"
+
+
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "We are a unique marketing consultancy firm with a purpose to deliver personalised marketing solutions to asian brands across the world. We’re here to provide creativity to solve your advertising, branding, and marketing problems you face while approaching the market. You need to move  fast in this new world!. Our approach is to move efficiently and collaboratively to deliver effective, memorable work.",
+        "paragraph1": "We create customised & empathetic marketing strategies. Connecting your product with the world, On-Time. On-Budget. On-Point.",
+        "paragraph2": "We are not only marketing experts, but also we know you & your roots. We share your vision...We understand you!",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -18,6 +25,7 @@
             "Lorem ipsum dolor"
         ]
     },
+
     "Whowework": [{
             "title": "STARTUPS",
             "info1": "We understand what it takes to skyrocket a company and the paths they need to follow.",
@@ -83,34 +91,21 @@
     ],
     "Services": [{
             "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Empathise",
+            "text": "Diagnosing the right areas of development and revealing insights to unlock growth. Auditing how customers interact with your brand, and building new products and services."
+        },
+
+        {
+            "icon": "fa fa-plus",
+            "name": "Create",
+            "text": "Creating the most compelling way to affect how people think, feeland act on your product & your brand."
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "fa fa-handshake",
+            "name": "Consult",
+            "text": "Conceptualise integrated solutions across strategy, media, content and Innovation. Deliver solutions that influence attitudes, shift behavior and amplify the brand voice consistently across more channels. To execute, work with your in-house team or our network of creative talent for any projects you may have – big or small"
         }
+
     ],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
@@ -144,29 +139,24 @@
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director",
+            "img": "img/team/image1.jpg",
+            "name": "KOICHI YOKOZEKI",
+            "job": "Founder",
             "icon": "fa fa-linkedin"
         },
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer",
+            "img": "img/team/image2.jpg",
+            "name": "XINGNA FU",
+            "job": "Founder",
             "icon": "fa fa-linkedin"
         },
         {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer",
-            "icon": "fa fa-linkedin"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager",
+            "img": "img/team/image3.jpg",
+            "name": "ADITI AYARE",
+            "job": "Founder",
             "icon": "fa fa-linkedin"
         }
+
     ],
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",

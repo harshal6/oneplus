@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Helmet from "react-helmet";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
+import { Brand } from "./components/brand";
 import { About } from "./components/about";
 import { Whowework } from "./components/Whowework";
 import { Services } from "./components/services";
@@ -32,6 +33,7 @@ const App = () => {
         <meta name="info" content="this is one-plus website"></meta>
         <meta name="keywords" content="one-plus , service"></meta> 
       </Helmet>
+      <Brand data={landingPageData.Brand} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Whowework data={landingPageData.Whowework}/>

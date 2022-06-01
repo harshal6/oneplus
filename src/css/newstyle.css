@@ -256,6 +256,8 @@ a:focus,
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-position: inherit;
+    background-attachment: fixed;
 }
 
 .intro .overlay {
@@ -294,11 +296,30 @@ header .intro-text {
 }
 
 
+/* /brand section */
+
+#brand {
+    padding: 100px 0px;
+    background: url(../images/17973908.jpg)no-repeat 0 0;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* brand section end  */
+
+
 /* About Section */
 
 #about {
     padding: 100px 0;
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);
+    */
+    background: url(../images/5621334.jpg)no-repeat 0 0;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #about h3 {
@@ -342,13 +363,14 @@ header .intro-text {
     padding-right: 8px;
 }
 
-#about img {
+
+/* #about img {
     width: 520px;
     margin-top: 10px;
     background: #fff;
     border-right: 0;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
-}
+} */
 
 #about p {
     line-height: 24px;
@@ -362,6 +384,10 @@ header .intro-text {
 
 #whowework {
     padding: 80px 0;
+    background: url(../images/bg.webp)no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #whowework h2 {
@@ -392,8 +418,12 @@ header .intro-text {
 
 #services {
     padding: 100px 0;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     color: #fff;
+    background: url(../images/6068656.jpg) no-repeat 0 0;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #services .service-desc {
@@ -790,5 +820,14 @@ label {
     }
     .intro h1 {
         font-size: 74px;
+    }
+}
+
+@media (min-width: 992px) {
+    #team .col-md-3 {
+        width: 33%;
+    }
+    #about .col-md-6 {
+        width: 100%;
     }
 }
