@@ -1,17 +1,15 @@
 {
     "Header": {
         "title": "Leading the way in the industry",
-        "paragraph": "THEONEPLUS MARKETING AGENCY"
+        "paragraph": "THE ONEPLUS MARKETING AGENCY"
     },
     "Brand": {
         "paragraph": "GETTING YOUR BRAND HEARD BY THE NEW WORLD"
-
-
     },
-    "About": {
+    "Vision": {
         "paragraph": "We are a unique marketing consultancy firm with a purpose to deliver personalised marketing solutions to asian brands across the world. We’re here to provide creativity to solve your advertising, branding, and marketing problems you face while approaching the market. You need to move  fast in this new world!. Our approach is to move efficiently and collaboratively to deliver effective, memorable work.",
         "paragraph1": "We create customised & empathetic marketing strategies. Connecting your product with the world, On-Time. On-Budget. On-Point.",
-        "paragraph2": "We are not only marketing experts, but also we know you & your roots. We share your vision...We understand you!",
+        "paragraph2": "We are not only marketing experts, but also we know you & your roots. We share your about...We understand you!",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -90,22 +88,21 @@
         }
     ],
     "Services": [{
-            "icon": "fa fa-wordpress",
+            "img": "img/Empathise.png",
             "name": "Empathise",
             "text": "Diagnosing the right areas of development and revealing insights to unlock growth. Auditing how customers interact with your brand, and building new products and services."
         },
 
         {
-            "icon": "fa fa-plus",
+            "img": "img/Create.webp",
             "name": "Create",
             "text": "Creating the most compelling way to affect how people think, feeland act on your product & your brand."
         },
         {
-            "icon": "fa fa-handshake",
+            "img": "img/Consult.webp",
             "name": "Consult",
             "text": "Conceptualise integrated solutions across strategy, media, content and Innovation. Deliver solutions that influence attitudes, shift behavior and amplify the brand voice consistently across more channels. To execute, work with your in-house team or our network of creative talent for any projects you may have – big or small"
         }
-
     ],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
@@ -156,7 +153,6 @@
             "job": "Founder",
             "icon": "fa fa-linkedin"
         }
-
     ],
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",

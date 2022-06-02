@@ -201,8 +201,8 @@ hr {
 .btn-custom {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
-    color: #d44;
-    background-color: #fffefe;
+    color: #fff;
+    background-color: #d44;
     background-image: black;
     padding: 14px 34px;
     letter-spacing: 1px;
@@ -250,8 +250,7 @@ a:focus,
     display: table;
     width: 100%;
     padding: 0;
-    background: url(../images/banner2.jpg) center center no-repeat;
-    background-color: #e5e5e5;
+    background-color: #ffffff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -260,9 +259,16 @@ a:focus,
     background-attachment: fixed;
 }
 
-.intro .overlay {
-    background: rgba(0, 0, 0, 0.2);
+.intro .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+/* .intro .overlay {
+    background: rgba(0, 0, 0, 0.2);
+} */
 
 .intro h1 {
     font-family: "Raleway", sans-serif;
@@ -270,8 +276,8 @@ a:focus,
     font-size: 82px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 100px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 28px;
 }
 
 .intro h1 span {
@@ -285,14 +291,14 @@ a:focus,
     font-weight: 300;
     line-height: 30px;
     margin: 0 auto;
-    margin-bottom: 60px;
-    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-top: 36px;
 }
 
 header .intro-text {
-    padding-top: 350px;
+    padding-top: 115px;
     padding-bottom: 200px;
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -300,42 +306,61 @@ header .intro-text {
 
 #brand {
     padding: 100px 0px;
-    background: url(../images/17973908.jpg)no-repeat 0 0;
+    background: url(../images/red4.jfif)no-repeat 0 0;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#brand .row .img-responsive {
+    max-width: 350px;
+    height: 412px;
+}
+
+.brand-text h1 {
+    font-size: 69px;
+    font-weight: 800;
+}
+
+#brand .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+#brand .row .col-xs-12 {
+    width: auto;
 }
 
 
 /* brand section end  */
 
 
-/* About Section */
+/* vision Section */
 
-#about {
+#vision {
     padding: 100px 0;
-    /*background-color: rgb(255, 255, 255);
-    */
-    background: url(../images/5621334.jpg)no-repeat 0 0;
+    background: url(../images/red2.avif)no-repeat 0 0;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
 
-#about h3 {
+#vision h3 {
     font-size: 22px;
     margin: 0 0 20px;
     color: #FF6961;
 }
 
-#about h2 {
+#vision h2 {
     position: relative;
     margin-bottom: 15px;
     padding-bottom: 15px;
     color: #FF6961;
 }
 
-#about h2::after {
+#vision h2::after {
     position: absolute;
     content: "";
     background: #d44;
@@ -345,7 +370,7 @@ header .intro-text {
     left: 0;
 }
 
-#about .about-text li {
+#vision .vision-text li {
     margin-bottom: 6px;
     margin-left: 6px;
     list-style: none;
@@ -354,7 +379,7 @@ header .intro-text {
     font-weight: 600;
 }
 
-#about .about-text li:before {
+#vision .vision-text li:before {
     content: "\f00c";
     font-family: "FontAwesome";
     color: #d44;
@@ -364,7 +389,7 @@ header .intro-text {
 }
 
 
-/* #about img {
+/* #vision img {
     width: 520px;
     margin-top: 10px;
     background: #fff;
@@ -372,7 +397,7 @@ header .intro-text {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 } */
 
-#about p {
+#vision p {
     line-height: 24px;
     margin: 30px 0;
     color: black;
@@ -384,7 +409,7 @@ header .intro-text {
 
 #whowework {
     padding: 80px 0;
-    background: url(../images/bg.webp)no-repeat 0 0;
+    background: url(../images/red3.webp)no-repeat 0 0;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -420,7 +445,7 @@ header .intro-text {
     padding: 100px 0;
     /* background: rgb(255, 255, 255); */
     color: #fff;
-    background: url(../images/6068656.jpg) no-repeat 0 0;
+    background: url(../images/red4.jfif) no-repeat 0 0;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -445,15 +470,15 @@ header .intro-text {
     left: 50%;
 }
 
-#services i.fa {
-    font-size: 42px;
-    width: 120px;
-    height: 120px;
-    padding: 40px 0;
+#services .icon-img {
+    /* font-size: 42px; */
+    width: 105px;
+    height: auto;
+    padding: 20px;
     background: #d44;
     border-radius: 50%;
     color: #fff;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 5%);
 }
 
 #services h3 {
@@ -465,6 +490,7 @@ header .intro-text {
 #services p {
     color: black;
     font-weight: 600;
+    text-align: justify;
 }
 
 #services .service-desc {
@@ -785,7 +811,8 @@ label {
 
 #footer {
     background: black;
-    padding: 30px 0;
+    padding: 9px 0;
+    text-align: center;
 }
 
 #footer p {
@@ -802,7 +829,7 @@ label {
 }
 
 @media (max-width: 768px) {
-    #about img {
+    #vision img {
         margin: 50px 0;
     }
     #menu a.navbar-brand img {
@@ -819,7 +846,21 @@ label {
         margin-right: 30px;
     }
     .intro h1 {
-        font-size: 74px;
+        font-size: 50px;
+    }
+    .intro .row {
+        display: block;
+        margin-top: 26px;
+    }
+    .intro .row .col-md-offset-2 {
+        margin-left: 0.666667%;
+    }
+    #brand .row .img-responsive {
+        max-width: 100%;
+        height: auto !important;
+    }
+    #brand .row {
+        display: block;
     }
 }
 
@@ -827,7 +868,10 @@ label {
     #team .col-md-3 {
         width: 33%;
     }
-    #about .col-md-6 {
+    #vision .col-md-6 {
         width: 100%;
+    }
+    .intro .row .col-md-offset-2 {
+        margin-left: 0.666667%;
     }
 }

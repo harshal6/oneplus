@@ -18,6 +18,14 @@ export const Header = (props) => {
                   Learn More
                 </a>{" "}
               </div>
+              <div className="col-md-8  col-md-offset-2 intro-img">
+                {" "}
+                <img
+                  src="img/digital-marketing-company-usa.png"
+                  className="img-responsive"
+                  alt=""
+                />{" "}
+              </div>
             </div>
           </div>
         </div>
