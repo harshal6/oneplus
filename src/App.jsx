@@ -37,7 +37,7 @@ const App = () => {
       <Brand data={landingPageData.Brand} />
       <Vision data={landingPageData.Vision} />
       <Services data={landingPageData.Services} />
-      <Whowework data={landingPageData.Whowework} />
+      {/* <Whowework data={landingPageData.Whowework} /> */}
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
       <Footer data={landingPageData.Footer} />

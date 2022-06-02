@@ -20,7 +20,7 @@ export const Team = (props) => {
                       <h4>{d.name}</h4>
                     <p>{d.job}</p>
                     <a href="https://www.linkedin.com/" target={ "_blank" } rel="noreferrer" >
-                      <i class="fa fa-linkedin" aria-hidden="true">
+                      <i className="fa fa-linkedin" aria-hidden="true">
                       </i></a>{''}
                     </div>
                   </div>

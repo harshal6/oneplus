@@ -250,12 +250,14 @@ a:focus,
     display: table;
     width: 100%;
     padding: 0;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: inherit;
+    /* background-attachment: fixed; */
+    background: url('/src/images/banner13.png') no-repeat 0 0;
     background-attachment: fixed;
 }
 
@@ -278,6 +280,13 @@ a:focus,
     text-transform: uppercase;
     margin-top: 25px;
     margin-bottom: 28px;
+}
+.intro h1:hover {
+   color: #000;
+}
+/** to be fixed and added appropriate css **/
+.intro .container {
+   margin-left:5%; 
 }
 
 .intro h1 span {
@@ -313,13 +322,23 @@ header .intro-text {
 }
 
 #brand .row .img-responsive {
-    max-width: 350px;
-    height: 412px;
+    /* max-width: 350px; */
+    /* height: 412px; */
+    max-width: fit-content;
+    height: auto;
 }
 
 .brand-text h1 {
     font-size: 69px;
     font-weight: 800;
+}
+.brand-sub-wrapper {
+   display:flex;
+   flex-direction:row; 
+}
+.brand-image {
+    margin:7px;
+    max-width: unset;
 }
 
 #brand .row {
@@ -341,7 +360,7 @@ header .intro-text {
 
 #vision {
     padding: 100px 0;
-    background: url(../images/red2.avif)no-repeat 0 0;
+    background: url(../images/vision3.png)no-repeat 0 0;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;

@@ -4,8 +4,8 @@ export const Header = (props) => {
       <div className="intro">
         <div className="overlay">
           <div className="container">
-            <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
+            {/* <div className="row"> */}
+              <div className="intro-text">
                 <p>
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
@@ -18,15 +18,15 @@ export const Header = (props) => {
                   Learn More
                 </a>{" "}
               </div>
-              <div className="col-md-8  col-md-offset-2 intro-img">
+              {/* <div className="col-md-8  col-md-offset-2 intro-img">
                 {" "}
                 <img
                   src="img/digital-marketing-company-usa.png"
                   className="img-responsive"
                   alt=""
                 />{" "}
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
         </div>
       </div>
