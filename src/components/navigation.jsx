@@ -1,4 +1,4 @@
-import logo from "../images/FullLogo_Transparent.png";
+import logo1 from "../images/logo1.png";
 
 export const Navigation = (props) => {
   return (
@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <img src={logo} alt="logo" />
+            <img src={logo1} alt="logo" />
           </a>
         </div>
 

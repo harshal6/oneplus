@@ -10,7 +10,7 @@ export const Brand = (props) => {
           </div>
           <div className="">
             {" "}
-            <img src="img/man-loudly-screaming-megaphone-making-announce-protesting-wants-be-heard.png" className="img-responsive brand-image" alt="" />{" "}
+            <img src="img/brand4-removebg-preview.png" className="brand-image" alt="" />{" "}
           </div>
         </div>
       </div>

@@ -102,11 +102,11 @@ hr {
 }
 
 #menu a.navbar-brand img {
-    width: 300px;
+    width: 175px;
     height: auto;
     position: relative;
-    top: -100px;
-    left: -100px;
+    top: -28px;
+    left: -53px;
 }
 
 #menu.navbar-default .navbar-nav>li>a {
@@ -429,7 +429,7 @@ header .intro-text {
 
 #whowework {
     padding: 80px 0;
-    background: url(../images/red3.webp)no-repeat 0 0;
+    background: url(../images/services3.png)no-repeat 0 0;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -463,12 +463,12 @@ header .intro-text {
 
 #work {
     padding: 100px 0;
-    /* background: rgb(255, 255, 255); */
+    background: rgb(255, 255, 255);
     color: #fff;
-    background: url(../images/red4.jfif) no-repeat 0 0;
-    background-position: center;
+    /* background: url(../images/services9.png) no-repeat 0 0; */
+    background-position: top;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto;
 }
 
 #work .service-desc {
@@ -865,11 +865,11 @@ label {
         margin: 50px 0;
     }
     #menu a.navbar-brand img {
-        width: 230px;
+        width: 130px;
         height: auto;
         position: relative;
-        top: -85px;
-        left: -50px;
+        top: -14px;
+        left: -15px;
     }
     #menu a.navbar-brand {
         margin-bottom: 11px;
@@ -902,6 +902,17 @@ label {
     .brand-text h1 {
         font-size: 54px;
         font-weight: 800;
+    }
+}
+
+@media (max-width: 767px) {
+    #header .intro {
+        background-attachment: fixed;
+        background-size: contain;
+        background-position: bottom;
+    }
+    .intro h1 {
+        font-size: 46px;
     }
 }
 
