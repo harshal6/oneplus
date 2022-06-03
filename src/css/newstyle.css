@@ -816,8 +816,8 @@
     }
     
     #footer p {
-        color: white;
-        font-size: 14px;
+        color: #d44;
+        font-size: 16px;
     }
     
     #footer a {
@@ -898,10 +898,13 @@
         }
         #vision {
             padding: 100px 0;
-            background: url(../images/Group\ 2.png)no-repeat 0 0;
-            background-position: center;
-            background-attachment: fixed;
-            background-size: cover;
+            background: url(../images/Group12.png)no-repeat 0 0;
+            background-position: top;
+            /* background-attachment: fixed; */
+            background-size: auto;
+        }
+        .navbar-header .navbar-toggle {
+            margin-right: 8px;
         }
     }
     
