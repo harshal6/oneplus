@@ -19,9 +19,9 @@ export const Team = (props) => {
                     <div className='caption'>
                       <h4>{d.name}</h4>
                     <p>{d.job}</p>
-                    <a href="https://www.linkedin.com/" target={ "_blank" } rel="noreferrer" >
-                      <i className="fa fa-linkedin" aria-hidden="true">
-                      </i></a>{''}
+                    <a href={d.link} target={ "_blank" } rel="noreferrer" >
+                      <i class="fa fa-linkedin" aria-hidden="true">
+                      </i></a>
                     </div>
                   </div>
                 </div>
