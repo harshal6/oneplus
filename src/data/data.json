@@ -87,16 +87,22 @@
             "smallImage": "img/portfolio/09-small.jpg"
         }
     ],
-    "Services": [{
+    "Work": [{
             "img": "img/Empathise.png",
             "name": "Empathise",
-            "text": "Diagnosing the right areas of development and revealing insights to unlock growth. Auditing how customers interact with your brand, and building new products and services."
+            "text": "Diagnosing the right areas of development and revealing insights to unlock growth. Auditing how customers interact with your brand, and building new products and services.",
+            "list1": "Customer Insights",
+            "list2": "Market Insights",
+            "list3": "Market Insights"
         },
 
         {
             "img": "img/Create.webp",
             "name": "Create",
-            "text": "Creating the most compelling way to affect how people think, feeland act on your product & your brand."
+            "text": "Creating the most compelling way to affect how people think, feeland act on your product & your brand.",
+            "list1": "Branding Strategy",
+            "list2": "Consumer Marketing Strategy",
+            "list3": "Digital & Performance marketing Strategy"
         },
         {
             "img": "img/Consult.webp",

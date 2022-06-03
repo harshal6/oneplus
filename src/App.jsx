@@ -4,8 +4,8 @@ import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Brand } from "./components/brand";
 import { Vision } from "./components/Vision";
-import { Whowework } from "./components/Whowework";
-import { Services } from "./components/services";
+// import { Whowework } from "./components/Whowework";
+import { Work } from "./components/Work";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/Footer";
@@ -36,7 +36,7 @@ const App = () => {
       </Helmet>
       <Brand data={landingPageData.Brand} />
       <Vision data={landingPageData.Vision} />
-      <Services data={landingPageData.Services} />
+      <Work data={landingPageData.Work} />
       {/* <Whowework data={landingPageData.Whowework} /> */}
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />

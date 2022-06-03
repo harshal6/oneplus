@@ -281,12 +281,16 @@ a:focus,
     margin-top: 25px;
     margin-bottom: 28px;
 }
+
 .intro h1:hover {
-   color: #000;
+    color: #000;
 }
+
+
 /** to be fixed and added appropriate css **/
+
 .intro .container {
-   margin-left:5%; 
+    margin-left: 5%;
 }
 
 .intro h1 span {
@@ -332,12 +336,14 @@ header .intro-text {
     font-size: 69px;
     font-weight: 800;
 }
+
 .brand-sub-wrapper {
-   display:flex;
-   flex-direction:row; 
+    display: flex;
+    flex-direction: row;
 }
+
 .brand-image {
-    margin:7px;
+    margin: 7px;
     max-width: unset;
 }
 
@@ -460,7 +466,7 @@ header .intro-text {
 
 /* Services Section */
 
-#services {
+#work {
     padding: 100px 0;
     /* background: rgb(255, 255, 255); */
     color: #fff;
@@ -470,15 +476,15 @@ header .intro-text {
     background-size: cover;
 }
 
-#services .service-desc {
+#work .service-desc {
     margin: 10px 10px 20px;
 }
 
-#services h2 {
+#work h2 {
     color: #FF6961;
 }
 
-#services .section-title h2::after {
+#work .section-title h2::after {
     position: absolute;
     content: "";
     background: #d44;
@@ -489,7 +495,7 @@ header .intro-text {
     left: 50%;
 }
 
-#services .icon-img {
+#work .icon-img {
     /* font-size: 42px; */
     width: 105px;
     height: auto;
@@ -500,20 +506,32 @@ header .intro-text {
     box-shadow: 10px 10px 10px rgb(0 0 0 / 5%);
 }
 
-#services h3 {
+#work h3 {
     font-weight: 500;
     padding: 5px 0;
     color: #FF6961;
 }
 
-#services p {
+#work p {
     color: black;
     font-weight: 600;
     text-align: justify;
 }
 
-#services .service-desc {
+#work .service-desc {
     margin-bottom: 40px;
+}
+
+#work .service-desc li {
+    text-align: justify;
+    font-size: 14px;
+    color: #000;
+    font-weight: 800;
+    /* list-style-type: none; */
+}
+
+.service-wapper .col-md-4:last-child li {
+    list-style: none;
 }
 
 
