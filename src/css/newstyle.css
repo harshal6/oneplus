@@ -337,24 +337,19 @@ header .intro-text {
     font-weight: 800;
 }
 
-.brand-sub-wrapper {
-    display: flex;
-    flex-direction: row;
-}
-
 .brand-image {
     margin: 7px;
     max-width: unset;
 }
 
-#brand .row {
+#brand .brand-sub-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
 }
 
-#brand .row .col-xs-12 {
+#brand .brand-sub-wrapper .col-xs-12 {
     width: auto;
 }
 
@@ -896,8 +891,17 @@ label {
         max-width: 100%;
         height: auto !important;
     }
-    #brand .row {
+    #brand .brand-sub-wrapper {
+        flex-direction: column;
         display: block;
+    }
+    .brand-image {
+        margin: 7px;
+        max-width: 100%;
+    }
+    .brand-text h1 {
+        font-size: 54px;
+        font-weight: 800;
     }
 }
 
