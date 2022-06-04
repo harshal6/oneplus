@@ -919,3 +919,40 @@
             margin-left: 0.666667%;
         }
     }
+    
+    @media (max-width: 450px) {
+        #header .intro {
+            background-attachment: fixed;
+            background-size: contain;
+            background-position: center;
+        }
+    }
+    
+    @media (max-width: 380px) {
+        #header .intro {
+            background-attachment: fixed;
+            background-size: contain;
+            background-position: bottom;
+            padding-bottom: 63px;
+        }
+    }
+    
+    @media (max-width: 370px) {
+        #header .intro {
+            background-attachment: fixed;
+            background-size: contain;
+            background-position: bottom;
+        }
+    }
+    
+    @media (max-width:360px) {
+        #header .intro {
+            padding-bottom: 100px;
+        }
+    }
+    
+    @media (max-width: 350px) {
+        #header .intro {
+            margin-bottom: 100px;
+        }
+    }
