@@ -19,9 +19,9 @@ export const Contact = (props) => {
     e.preventDefault()
     console.log(name, email, message)
     emailjs
-      .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
-      )
+    sendForm(
+      'service_wvgsia5', 'template_2qguja7', e.target, 'LSWW47eD-9wQ4Sa5y'
+    )
       .then(
         (result) => {
           console.log(result.text)
