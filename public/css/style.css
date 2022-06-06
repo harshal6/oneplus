@@ -736,7 +736,8 @@ label {
 
 /* new code css */
 
-.intro-text h1 {
+
+/* .intro-text h1 {
     animation: float 2s ease-in-out alternate;
     -webkit-animation: float 2s ease-in-out alternate;
 }
@@ -782,7 +783,7 @@ label {
     100% {
         transform: translateY(10px);
     }
-}
+} */
 
 
 /* new code end */

@@ -18,19 +18,25 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(name, email, message)
-    emailjs.sendForm(
+    emailjs
+    .sendForm(
       'service_wvgsia5', 'template_2qguja7', e.target, 'LSWW47eD-9wQ4Sa5y'
     )
-      .then(
-        (result) => {
-          console.log(result.text)
-          clearState()
-        },
-        (error) => {
-          console.log(error.text)
+    .then(
+      (result) => {
+        if(result){
+        console.log(result.text)
         }
-      )
-  }
+        else{
+          console.log('error');
+        }
+      },
+      (error) => {
+        alert(error.text)
+      }
+    )
+    e.target.reset()
+}
   return (
     <div>
       <div id='contact'>
