@@ -248,7 +248,7 @@ a:focus,
 .intro {
     display: table;
     width: 100%;
-    min-height: 800px;
+    min-height: 850px;
     padding: 0;
     /* background-color: #ffffff; */
     background: url("/src/images/Topbanner.png") no-repeat 0 0;
@@ -376,7 +376,7 @@ header .intro-text {
 
 #vision {
     padding: 100px 0;
-    min-height: 800px;
+    min-height: 850px;
     background: url(../images/bannerforaboutus.png) 0 0;
     background-position: center;
     background-attachment: fixed;
@@ -504,7 +504,9 @@ header .intro-text {
 
 #work {
     padding: 100px 0;
-    min-height: 800px;
+    width: 100%;
+    min-height: 850px;
+    /* min-height: 100vh; */
     background: rgb(255, 255, 255);
     color: #fff;
     background: url(../images/servicebanner.png) no-repeat 0 0;
@@ -568,6 +570,12 @@ header .intro-text {
     font-weight: 400;
     list-style-type: none;
 }
+
+
+/* #work li:before {
+    content: "+";
+    padding-right: 1em;
+} */
 
 .service-wapper .col-md-4:last-child li {
     list-style: none;
@@ -681,8 +689,14 @@ header .intro-text {
 /* Team Section */
 
 #team {
-    padding: 80px 0;
-    background-color: rgb(255, 255, 255);
+    /* padding: 80px 0;
+    background-color: rgb(255, 255, 255); */
+    padding: 100px 0;
+    min-height: 850px;
+    background: url(../images/bannerforaboutus.png) 0 0;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #team h2 {
@@ -969,6 +983,10 @@ label {
     }
     header .intro-text {
         padding-bottom: 44px;
+    }
+    #team {
+        background-position: center;
+        background-size: contain;
     }
 }
 
