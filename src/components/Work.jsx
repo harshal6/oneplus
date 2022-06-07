@@ -22,6 +22,7 @@ export const Work = (props) => {
                     <li>{d.list1}</li>
                     <li>{d.list2}</li>
                     <li>{d.list3}</li>
+                    <li>{d.list4}</li>
                   </div>
                 </div>
               ))
