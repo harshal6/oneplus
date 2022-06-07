@@ -99,7 +99,7 @@
     }
     
     #menu a.navbar-brand img {
-        width: 175px;
+        width: 95px;
         height: auto;
         position: relative;
         top: -28px;
@@ -452,9 +452,9 @@
         background: rgb(255, 255, 255);
         color: #fff;
         background: url(../images/servicebanner.png) no-repeat 0 0;
-        background-position: top;
+        background-position: center;
         background-attachment: fixed;
-        background-size: auto;
+        background-size: cover;
     }
     
     #work .service-desc {
@@ -844,11 +844,11 @@
             margin: 50px 0;
         }
         #menu a.navbar-brand img {
-            width: 130px;
+            width: 110px;
             height: auto;
             position: relative;
-            top: -14px;
-            left: -15px;
+            top: -26px;
+            left: -25px;
         }
         #menu a.navbar-brand {
             margin-bottom: 11px;

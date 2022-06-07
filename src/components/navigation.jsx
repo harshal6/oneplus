@@ -1,4 +1,4 @@
-import logo1 from "../images/IconOnly.png";
+import logo1 from "../images/Logo-Icon Only (1).png";
 
 export const Navigation = (props) => {
   return (
