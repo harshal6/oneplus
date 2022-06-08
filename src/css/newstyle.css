@@ -463,6 +463,7 @@ header .intro-text {
     color: #D03434;
     font-size: 2em;
     font-weight: 600;
+    text-transform: capitalize;
 }
 
 
@@ -551,6 +552,7 @@ header .intro-text {
     padding: 5px 0;
     color: #D03434;
     font-size: 33px;
+    text-transform: capitalize;
 }
 
 #work p {
@@ -569,6 +571,15 @@ header .intro-text {
     color: #000;
     font-weight: 400;
     list-style-type: none;
+}
+
+#vision .container,
+#Work .container,
+.intro .container,
+#team .container {
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -1014,6 +1025,17 @@ label {
     #work {
         background-position: center;
         background-size: cover;
+    }
+    #vision .container,
+    #Work .container,
+    .intro .container,
+    #team .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
     }
 }
 

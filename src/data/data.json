@@ -81,7 +81,7 @@
     ],
     "Work": [{
             "img": "img/Empathise.png",
-            "name": "EVALUATE & DEFINE",
+            "name": "Evaluate & Define",
             "text": "We Diagnose the right areas of development and revealing insights to unlock growth. We audit and define how customers interact with your brand to cocreate marketing objectives with your team.",
             "list1": "Customer Insights",
             "list2": "Market Insights",
@@ -90,7 +90,7 @@
 
         {
             "img": "img/Create.webp",
-            "name": "STRATEGIZE",
+            "name": "Strategize",
             "text": "We Create the most compelling way to affect how consumers think, feel and act on your product & your brand.",
             "list1": "Branding Strategy",
             "list2": "Consumer Marketing Strategy",
@@ -99,7 +99,7 @@
         },
         {
             "img": "img/Consult.webp",
-            "name": "DESIGN & EXECUTE",
+            "name": "Design & Execute",
             "text": "We execute the strategies by working with your in-house team or our network of creative talent.",
             "list1": "Brand Design & Identity",
             "list2": "Content & Social media management",

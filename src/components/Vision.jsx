@@ -15,15 +15,15 @@ export const Vision = (props) => {
         <h3>OUR APPROACH</h3>
         <div className="our-approach-section">
               <div>
-                <h4>GLOBAL EXPERIENCE</h4>
+                <h4>Global Experience</h4>
                 <p>{props.data ? props.data.gE : "loading..."}</p>
               </div>
               <div>
-                <h4>CUSTOMIZED PACKAGE</h4>
+                <h4>Customized Package</h4>
                 <p>{props.data ? props.data.cP : "loading..."}</p>
               </div>
               <div>
-                <h4>CULTURAL INTEGRATION</h4>
+                <h4>Cultural Integration</h4>
                 <p>{props.data ? props.data.cI : "loading..."}</p>
               </div>
         </div>
