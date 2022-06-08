@@ -601,12 +601,14 @@ header .intro-text {
     flex-direction: column;
 }
 
-#work li:before {
-    content: "=>";
+#work li::before {
+    content: "*";
     padding-right: 1rem;
     color: #d03434;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
 }
 
 
@@ -1060,6 +1062,10 @@ label {
         letter-spacing: .1;
         list-style-type: none;
         line-height: 1.6;
+    }
+    #work li::before {
+        position: relative;
+        top: 4px;
     }
 }
 

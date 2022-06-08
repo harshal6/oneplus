@@ -18,9 +18,10 @@ export const Work = (props) => {
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
                     <li>{d.list1}</li>
-                    <li>{d.list2}</li>
-                    <li>{d.list3}</li>
-                    <li>{d.list4}</li>
+                    {d.list1 ? <li>{d.list1}</li> : ''}
+                    {d.list2 ? <li>{d.list2}</li> : ''}
+                    {d.list3 ? <li>{d.list3}</li> : ''}
+                    {d.list4 ? <li>{d.list4}</li> : ''}
                   </div>
                 </div>
               ))
