@@ -319,7 +319,7 @@ a:focus,
 }
 
 header .intro-text {
-    padding-top: 40px;
+    padding-top: 120px;
     padding-bottom: 50px;
     text-align: justify;
     max-width: 100%;
@@ -482,6 +482,12 @@ header .intro-text {
     line-height: 1.2em;
 }
 
+.our-approach-section-box {
+    box-shadow: 1px 1px 8px #d034342e;
+    width: 28%;
+    padding: 5px 16px;
+}
+
 
 /* whowework */
 
@@ -596,7 +602,7 @@ header .intro-text {
 #Work .container,
 .intro .container,
 #team .container {
-    padding: 100px 0px;
+    /* padding: 100px 0px; */
     display: flex;
     flex-direction: column;
 }

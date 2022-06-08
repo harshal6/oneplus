@@ -17,7 +17,7 @@ export const Work = (props) => {
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
-                    <li>{d.list1}</li>
+                   
                     {d.list1 ? <li>{d.list1}</li> : ''}
                     {d.list2 ? <li>{d.list2}</li> : ''}
                     {d.list3 ? <li>{d.list3}</li> : ''}
