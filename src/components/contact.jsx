@@ -15,28 +15,28 @@ export const Contact = (props) => {
   }
   const clearState = () => setState({ ...initialState })
 
-  const handleSubmit = (e) => {
+  function handleSubmit(e) {
     e.preventDefault()
     console.log(name, email, message)
     emailjs
-    .sendForm(
-      'service_wvgsia5', 'template_2qguja7', e.target, 'LSWW47eD-9wQ4Sa5y'
-    )
-    .then(
-      (result) => {
-        if(result){
-        console.log(result.text)
+      .sendForm(
+        'service_wvgsia5', 'template_2qguja7', e.target, 'LSWW47eD-9wQ4Sa5y'
+      )
+      .then(
+        (result) => {
+          if(result){
+          console.log(result.text)
+          }
+          else{
+            console.log('error');
+          }
+        },
+        (error) => {
+          alert(error.text)
         }
-        else{
-          console.log('error');
-        }
-      },
-      (error) => {
-        alert(error.text)
-      }
-    )
-    e.target.reset()
-}
+      )
+      e.target.reset()
+  }
   return (
     <div>
       <div id='contact'>
@@ -124,6 +124,7 @@ export const Contact = (props) => {
                 </span>{' '}
                 {props.data ? props.data.email : 'loading'}
               </p>
+              
             </div>
           </div>
           <div className='col-md-12'>

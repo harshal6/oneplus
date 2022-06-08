@@ -83,9 +83,9 @@
             "img": "img/Empathise.png",
             "name": "Evaluate & Define",
             "text": "We Diagnose the right areas of development and revealing insights to unlock growth. We audit and define how customers interact with your brand to cocreate marketing objectives with your team.",
-            "list1": "Customer Insights",
-            "list2": "Market Insights",
-            "list3": "Consumer Journey Mapping"
+            "list1": " Customer Insights",
+            "list2": " Market Insights",
+            "list3": " Consumer Journey Mapping"
         },
 
         {
@@ -93,18 +93,18 @@
             "name": "Strategize",
             "text": "We Create the most compelling way to affect how consumers think, feel and act on your product & your brand.",
             "list1": "Branding Strategy",
-            "list2": "Consumer Marketing Strategy",
-            "list3": "Content Strategy",
-            "list4": "Digital & Performance marketing Strategy"
+            "list2": " Consumer Marketing Strategy",
+            "list3": " Content Strategy",
+            "list4": " Digital & Performance marketing Strategy"
         },
         {
             "img": "img/Consult.webp",
             "name": "Design & Execute",
             "text": "We execute the strategies by working with your in-house team or our network of creative talent.",
-            "list1": "Brand Design & Identity",
-            "list2": "Content & Social media management",
-            "list3": "Digital Campaign & Influencer Planning",
-            "list4": "SEO & SEM execution & management"
+            "list1": " Brand Design & Identity",
+            "list2": " Content & Social media management",
+            "list3": " Digital Campaign & Influencer Planning",
+            "list4": " SEO & SEM execution & management"
         }
     ],
     "Testimonials": [{

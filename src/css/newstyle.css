@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&family=Rubik:wght@300&display=swap");
+@import url("//db.onlinewebfonts.com/c/8a4e1ecad6f404643d41bd3c07150519?family=Publico+Headline+Web+Roman");
+@font-face {
+    font-family: "Publico Headline Web Roman";
+    src: url("//db.onlinewebfonts.com/t/8a4e1ecad6f404643d41bd3c07150519.eot");
+    src: url("//db.onlinewebfonts.com/t/8a4e1ecad6f404643d41bd3c07150519.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8a4e1ecad6f404643d41bd3c07150519.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8a4e1ecad6f404643d41bd3c07150519.woff") format("woff"), url("//db.onlinewebfonts.com/t/8a4e1ecad6f404643d41bd3c07150519.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8a4e1ecad6f404643d41bd3c07150519.svg#Publico Headline Web Roman") format("svg");
+}
+
 body,
 html {
-    font-family: "aktiv-grotesk", sans-serif !important;
+    /* font-family: "aktiv-grotesk", sans-serif !important; */
+    font-family: 'Publico Headline Web Roman', sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     font-weight: 400;
@@ -12,7 +20,8 @@ html {
 h2,
 h3,
 h4 {
-    font-family: "aktiv-grotesk", sans-serif !important;
+    /* font-family: "aktiv-grotesk", sans-serif !important; */
+    font-family: "Publico Headline Web Roman", sans-serif !important;
 }
 
 h2 {
@@ -111,7 +120,7 @@ hr {
 #menu.navbar-default .navbar-nav>li>a {
     /* font-family: "Lato", sans-serif; */
     text-transform: uppercase;
-    color: #D03434;
+    color: #d03434;
     font-size: 15px;
     font-weight: 400;
     padding: 8px 2px;
@@ -126,7 +135,7 @@ hr {
     bottom: -1px;
     width: 0;
     height: 2px;
-    background: linear-gradient(to right, #D03434 0%, #D03434 100%);
+    background: linear-gradient(to right, #d03434 0%, #d03434 100%);
     content: "";
     transition: width 0.2s;
 }
@@ -150,7 +159,7 @@ hr {
     bottom: -1px !important;
     width: 100% !important;
     height: 2px !important;
-    background: linear-gradient(to right, #D03434 0%, #D03434 100%) !important;
+    background: linear-gradient(to right, #d03434 0%, #d03434 100%) !important;
     content: "" !important;
     transition: width 0.2s !important;
 }
@@ -183,7 +192,7 @@ hr {
 .section-title h2::after {
     position: absolute;
     content: "";
-    background: linear-gradient(to right, #D03434 0%, #D03434 100%);
+    background: linear-gradient(to right, #d03434 0%, #d03434 100%);
     height: 4px;
     width: 60px;
     bottom: 0;
@@ -201,7 +210,7 @@ hr {
     /* font-family: "Raleway", sans-serif; */
     text-transform: uppercase;
     color: #fff;
-    background-color: #D03434;
+    background-color: #d03434;
     background-image: black;
     padding: 14px 34px;
     letter-spacing: 1px;
@@ -270,6 +279,7 @@ a:focus,
 
 .intro h1 {
     /* font-family: "Raleway", sans-serif; */
+    font-family: "Publico Headline Web Roman", sans-serif !important;
     color: #d03434;
     font-size: 70px;
     font-weight: 700;
@@ -309,7 +319,7 @@ a:focus,
 }
 
 header .intro-text {
-    padding-top: 115px;
+    padding-top: 40px;
     padding-bottom: 50px;
     text-align: justify;
     max-width: 100%;
@@ -334,7 +344,7 @@ header .intro-text {
 
 #brand {
     padding: 100px 0px;
-    background: url(../images/red4.jfif) no-repeat 0 0;
+    /* background: url(../images/red4.jfif) no-repeat 0 0; */
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -377,32 +387,34 @@ header .intro-text {
 #vision {
     padding: 100px 0;
     min-height: 850px;
-    background: url(../images/bannerforaboutus.png) 0 0;
-    background-position: center;
+    /* background: url(../images/bannerforaboutus.png)no-repeat 0 0; */
+    background: url(../images/Image.png)no-repeat 0 0;
+    background-position: right;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 
 #vision h3 {
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
     margin: 0 0 20px;
-    color: #D03434;
-    margin-top: 15px;
+    color: #d03434;
+    margin-top: 82px;
+    text-align: center;
 }
 
 #vision h2 {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding-bottom: 15px;
-    color: #D03434;
+    color: #d03434;
     text-align: center;
 }
 
 #vision h2::after {
     position: absolute;
     content: "";
-    background: #D03434;
+    background: #d03434;
     height: 4px;
     width: 60px;
     bottom: 0;
@@ -421,22 +433,24 @@ header .intro-text {
 #vision .vision-text li:before {
     content: "\f00c";
     /* font-family: "FontAwesome"; */
-    color: #D03434;
+    color: #d03434;
     font-size: 11px;
     font-weight: 300;
     padding-right: 8px;
 }
 
-.vision-text {
-    float: right !important;
-}
-
 #vision p {
     line-height: 24px;
-    margin: 30px 0;
+    margin: 10px 0;
     color: black;
     /* font-weight: 600; */
     font-size: 14px;
+    text-align: justify;
+    max-width: 328px;
+}
+
+#vision .vision-about p {
+    max-width: 88%;
 }
 
 #vision .row h3 {
@@ -454,16 +468,18 @@ header .intro-text {
 }
 
 .our-approach-heading {
-    color: #D03434;
+    color: #d03434;
     font-size: 20px;
     font-weight: 600;
 }
 
 .our-approach-section h4 {
-    color: #D03434;
+    color: #d03434;
     font-size: 2em;
     font-weight: 600;
     text-transform: capitalize;
+    font-family: 'Charis SIL', serif !important;
+    line-height: 1.2em;
 }
 
 
@@ -471,18 +487,18 @@ header .intro-text {
 
 #whowework {
     padding: 80px 0;
-    background: url(../images/services3.png) no-repeat 0 0;
+    /* background: url(../images/services3.png) no-repeat 0 0; */
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 #whowework h2 {
-    color: #D03434;
+    color: #d03434;
 }
 
 .whowework-section h3 {
-    color: #D03434;
+    color: #d03434;
     font-size: 29px;
     font-weight: 600;
 }
@@ -511,7 +527,7 @@ header .intro-text {
     background: rgb(255, 255, 255);
     color: #fff;
     background: url(../images/servicebanner.png) no-repeat 0 0;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -521,13 +537,13 @@ header .intro-text {
 }
 
 #work h2 {
-    color: #D03434;
+    color: #d03434;
 }
 
 #work .section-title h2::after {
     position: absolute;
     content: "";
-    background: #D03434;
+    background: #d03434;
     height: 4px;
     width: 60px;
     bottom: 0;
@@ -540,7 +556,7 @@ header .intro-text {
     width: 105px;
     height: auto;
     padding: 20px;
-    background: #D03434;
+    background: #d03434;
     border-radius: 50%;
     color: #fff;
     box-shadow: 10px 10px 10px rgb(0 0 0 / 5%);
@@ -550,9 +566,10 @@ header .intro-text {
     font-size: 2em;
     font-weight: 600;
     padding: 5px 0;
-    color: #D03434;
+    color: #d03434;
     font-size: 33px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 #work p {
@@ -567,10 +584,12 @@ header .intro-text {
 
 #work .service-desc li {
     text-align: justify;
-    font-size: 14px;
-    color: #000;
-    font-weight: 400;
+    font-size: 16px;
+    color: #d03434;
+    font-weight: 600;
+    letter-spacing: .4;
     list-style-type: none;
+    line-height: 1.6;
 }
 
 #vision .container,
@@ -582,14 +601,12 @@ header .intro-text {
     flex-direction: column;
 }
 
-
-/* #work li:before {
-    content: "+";
-    padding-right: 1em;
-} */
-
-.service-wapper .col-md-4:last-child li {
-    list-style: none;
+#work li:before {
+    content: "=>";
+    padding-right: 1rem;
+    color: #d03434;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 
@@ -615,7 +632,7 @@ header .intro-text {
     text-align: center;
     margin: 0 auto;
     color: #fff;
-    background: linear-gradient(to right, #D03434 0%, #D03434 100%);
+    background: linear-gradient(to right, #d03434 0%, #d03434 100%);
     padding: 30% 0 0;
     height: 100%;
     width: 100%;
@@ -700,23 +717,21 @@ header .intro-text {
 /* Team Section */
 
 #team {
-    /* padding: 80px 0;
-    background-color: rgb(255, 255, 255); */
     padding: 100px 0;
     min-height: 850px;
-    background: url(../images/bannerforaboutus.png) 0 0;
-    background-position: center;
+    background: url(../images/servicebanner1.png)no-repeat 0 0;
+    background-position: right;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 
 #team h2 {
-    color: #D03434;
+    color: #d03434;
 }
 
 #team h4 {
     margin: 5px 0;
-    color: #D03434;
+    color: #d03434;
 }
 
 #team .team-img {
@@ -731,7 +746,7 @@ header .intro-text {
 
 #team .thumbnail .caption {
     padding: 10px 0 0;
-    color: #D03434;
+    color: #d03434;
 }
 
 #team .thumbnail .fa-linkedin {
@@ -741,7 +756,7 @@ header .intro-text {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    background: red;
+    background: #d03434;
     color: #fffefe;
     font-size: 25px;
 }
@@ -767,7 +782,7 @@ header .intro-text {
 }
 
 #contact h2 {
-    color: #D03434;
+    color: #d03434;
     margin-top: 10px;
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -776,7 +791,7 @@ header .intro-text {
 #contact .section-title h2::after {
     position: absolute;
     content: "";
-    background: #D03434;
+    background: #d03434;
     height: 4px;
     width: 60px;
     bottom: 0;
@@ -784,7 +799,7 @@ header .intro-text {
 }
 
 #contact h3 {
-    color: #D03434;
+    color: #d03434;
     margin-top: 80px;
     margin-bottom: 25px;
     padding-bottom: 20px;
@@ -803,7 +818,7 @@ header .intro-text {
 
 #contact .btn-custom {
     margin: 30px 0;
-    background: #D03434;
+    background: #d03434;
     border: 2px solid #fff;
     color: white;
 }
@@ -864,12 +879,12 @@ label {
 
 #contact .contact-item {
     margin: 20px 0;
-    color: #D03434;
+    color: #d03434;
     font-weight: 800;
 }
 
 #contact .contact-item span {
-    color: #D03434;
+    color: #d03434;
     margin-bottom: 10px;
     display: block;
 }
@@ -900,7 +915,7 @@ label {
     color: #fff;
     border-radius: 50%;
     transition: all 0.3s;
-    background-color: #D03434;
+    background-color: #d03434;
 }
 
 #contact .social i.fa:hover {
@@ -919,7 +934,7 @@ label {
 }
 
 #footer p {
-    color: #D03434;
+    color: #d03434;
     font-size: 16px;
 }
 
@@ -987,7 +1002,6 @@ label {
     }
     #vision {
         padding: 100px 0;
-        /* background: url(../images/Group3.png)no-repeat 0 0; */
         background-position: center;
         background-attachment: fixed;
         background-size: contain;
@@ -1018,6 +1032,7 @@ label {
         padding: 100px 0;
         background-position: center;
         background-size: contain;
+        /* background: url(../images/background-1.jpg)no-repeat 0 0; */
     }
     .navbar-header .navbar-toggle {
         margin-right: 8px;
@@ -1036,6 +1051,15 @@ label {
         margin-left: auto;
         display: flex;
         flex-direction: column;
+    }
+    #work .service-desc li {
+        text-align: justify;
+        font-size: 15px;
+        color: #d03434;
+        font-weight: 500;
+        letter-spacing: .1;
+        list-style-type: none;
+        line-height: 1.6;
     }
 }
 
