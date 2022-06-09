@@ -620,7 +620,18 @@ header .intro-text {
 .service-desc {
     box-shadow: -1px 1px 10px #d03434 !important;
     border: none !important;
+    transition: .2s;
 }
+
+
+/* .service-desc:hover {
+    transform: scaleY(1.1);
+    cursor: pointer;
+    -webkit-transform: scaleY(1.1);
+    -moz-transform: scaleY(1.1);
+    -ms-transform: scaleY(1.1);
+    -o-transform: scaleY(1.1);
+} */
 
 #work .service-desc li {
     text-align: justify;
@@ -992,13 +1003,6 @@ label {
     #vision img {
         margin: 50px 0;
     }
-    .our-approach-section {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        gap: 40px;
-        justify-content: space-evenly;
-    }
     #menu a.navbar-brand img {
         width: 90px;
         height: auto;
@@ -1145,6 +1149,10 @@ label {
         /* margin-bottom: 40px; */
         width: 100%;
         height: 350px;
+    }
+    .our-approach-section {
+        width: 100%;
+        display: block;
     }
 }
 

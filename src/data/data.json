@@ -8,14 +8,13 @@
         "paragraph": "GETTING YOUR BRAND HEARD BY THE NEW WORLD"
     },
     "Vision": {
-        "paragraph": "We are a unique marketing consultancy firm with a purpose to deliver personalised marketing solutions to asian brands across the world. We’re here to provide creativity to solve your advertising, branding, and marketing problems you face while approaching the market. You need to move  fast in this new world!. Our approach is to move efficiently and collaboratively to deliver effective, memorable work.",
-        "paragraph1": "We create customised & empathetic marketing strategies. Connecting your product with the world, On-Time. On-Budget. On-Point.",
-        "paragraph2": "We are not only marketing experts, but also we know you & your roots. We share your about...We understand you!",
-        "gE": "We are a team of consultants with an immersive experience in global businesses. Our vision is to work with our clients as partners; to deliver adaptive, effective and result driven solutions in response to the VUCA world",
-        "cP": "Our aim is to deliver concise, objective driven, ROI focused solutions. Hence, we provide personalised, expert attention in unique package depending on client's business goal, budget and timeline.",
-        "cI": "The Internet has made the world a much flatter place. It's now or never. Our marketing expertise will create brand identity for your business, across geographies, build strong awareness and customer loyalty amongst the ever dynamic global consumer behaviour"
+        "paragraph": "We are a unique marketing consultancy firm with a purpose to deliver personalised marketing solutions to asian  brands across the world. We bridge the gap between Asian and Western markets with our in-depth understanding of various cultures, marketing trends, global consumers and industrial transformations.",
+        "paragraph1": "Our aim is to creates ideas that influence attitudes, shift behaviour and amplify the brand voice consistently across all channels. We deliver integrated consultancy across strategy, creative, media and innovation in one agency, under our collaborative leadership.",
+        "paragraph2": "Connecting your company with the world with marketing solutions that are On-Time. On-Budget. On-Point.",
+        "gE": "We are a team of consultants with an immersive experience in global businesses.Our vision is to work with our clients as partners; to deliver adaptive, effective and result driven solutions in response to the VUCA world.",
+        "cP": "Our aim is to deliver concise, objective driven, ROI focused solutions.Hence,we provide personalised, expert attention in unique package depending on client’s business goal, budget and timeline.",
+        "cI": "The Internet has made the world a much flatter place.It's now or never.Our marketing expertise will create brand identity for your business, across geographies, build strong awareness and customer loyalty amongst the ever dynamic global consumer behaviour."
     },
-
     "Whowework": [{
             "title": "STARTUPS",
             "info1": "We understand what it takes to skyrocket a company and the paths they need to follow.",
@@ -82,17 +81,16 @@
     "Work": [{
             "img": "img/Empathise.png",
             "name": "Evaluate & Define",
-            "text": "We Diagnose the right areas of development and revealing insights to unlock growth. We audit and define how customers interact with your brand to cocreate marketing objectives with your team.",
+            "text": "We Diagnose the right areas of development and revealing insights to unlock growth. We audit and define how customers interact with your brand to co-create marketing objectives with your team.",
             "list1": " Customer Insights",
-            "list2": " Market Insights",
-            "list3": " Consumer Journey Mapping"
+            "list2": "Market Insights",
+            "list3": " Consumer Journey Mapping "
         },
-
         {
             "img": "img/Create.webp",
             "name": "Strategize",
             "text": "We Create the most compelling way to affect how consumers think, feel and act on your product & your brand.",
-            "list1": "Branding Strategy",
+            "list1": " Branding Strategy",
             "list2": "Consumer Marketing Strategy",
             "list3": "Content Strategy",
             "list4": "Digital & Performance marketing Strategy"
@@ -100,8 +98,8 @@
         {
             "img": "img/Consult.webp",
             "name": "Design & Execute",
-            "text": "We execute the strategies by working with your in-house team or our network of creative talent.",
-            "list1": " Brand Design & Identity",
+            "text": "We execute the strategies by working with your in-house team or our network of creative talent",
+            "list1": " Brand Design & Identity ",
             "list2": " Content & Social media management",
             "list3": " Digital Campaign & Influencer Planning",
             "list4": " SEO & SEM execution & management"
