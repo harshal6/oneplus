@@ -482,7 +482,7 @@ header .intro-text {
     font-weight: 600;
     text-transform: capitalize;
     /* font-family: 'Charis SIL', serif !important; */
-    font-family: 'Publico Headline Web Roman', sans-serif;
+    font-family: 'Publico Headline Web Roman', sans-serif !important;
     line-height: 1.2em;
 }
 
