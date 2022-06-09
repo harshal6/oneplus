@@ -12,7 +12,7 @@ export const Vision = (props) => {
             </div>
           </div>
         </div>
-        <h3>Our Approach</h3>
+        <h3>Our Approach </h3>
         <div className="our-approach-section">
               <div className="our-approach-section-box">
                 <h4>Global Experience</h4>
