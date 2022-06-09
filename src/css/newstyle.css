@@ -452,7 +452,9 @@ header .intro-text {
 }
 
 #vision .vision-about p {
-    max-width: 88%;
+    max-width: 73vw;
+    position: relative;
+    left: 2.4vw;
 }
 
 #vision .row h3 {
@@ -1124,6 +1126,26 @@ label {
         /* max-width: 354px; */
         max-width: 37vw;
         margin-top: 29vh;
+    }
+}
+
+@media (max-width: 320px) {
+    #work .service-desc li {
+        text-align: justify;
+        font-size: 11px;
+        color: #d03434;
+        font-weight: 500;
+        list-style-type: none;
+        /* line-height: 1.6; */
+    }
+    #work h3 {
+        font-size: 2em;
+        font-weight: 600;
+        padding: 5px 0;
+        color: #d03434;
+        font-size: 27px;
+        text-transform: capitalize;
+        text-align: justify;
     }
 }
 
